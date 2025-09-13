@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My profile</title>
+    <title>Contact — Red &amp; Black</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link
@@ -15,7 +15,7 @@
   <body class="page-contact">
     <header class="site-header">
       <div class="brand">
-        <a class="logo" href="index.html">My Profile</a>
+        <a class="logo" href="index.html">My Red&amp;Black</a>
       </div>
       <nav class="site-nav">
         <a href="index.html" class="nav-link">home</a>
@@ -33,18 +33,28 @@
       </section>
       <section class="contact-form">
         <form
+          class="form"
           action="mailto:your-email@example.com"
           method="post"
           enctype="text/plain"
         >
-          <input type="text" name="name" placeholder="お名前" required />
-          <input
-            type="email"
-            name="email"
-            placeholder="メールアドレス"
-            required
-          />
-          <textarea name="message" placeholder="メッセージ" required></textarea>
+          <label>
+            <span>お名前</span>
+            <input type="text" name="name" placeholder="お名前" required />
+          </label>
+          <label>
+            <span>メールアドレス</span>
+            <input
+              type="email"
+              name="email"
+              placeholder="メールアドレス"
+              required
+            />
+          </label>
+          <label>
+            <span>メッセージ</span>
+            <textarea name="message" placeholder="メッセージ" required></textarea>
+          </label>
           <button type="submit">送信</button>
         </form>
       </section>
