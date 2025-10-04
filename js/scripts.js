@@ -1,4 +1,3 @@
-window.addEventListener('DOMContentLoaded', () => {
-    alert('自己紹介サイトへようこそ！');
-    console.log('自己紹介サイトへようこそ！');
+window.addEventListener("DOMContentLoaded", () => {
+  console.log("自己紹介サイトへようこそ！");
 });
