@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="page-contact">
+  <body class="page-contact" id="top">
     <header class="site-header">
       <div class="brand">
         <a class="logo" href="index.html">My Profile</a>
@@ -23,6 +23,7 @@
         <a href="game.html" class="nav-link">game</a>
         <a href="anime-comic.html" class="nav-link">anime&amp;comic</a>
         <a href="video.html" class="nav-link">video</a>
+        <a href="music.html" class="nav-link">music</a>
         <a href="contact.html" class="nav-link active">contact</a>
       </nav>
     </header>
@@ -39,11 +40,11 @@
           enctype="text/plain"
         >
           <label>
-            <span>お名前</span>
+            <span>name</span>
             <input type="text" name="name" placeholder="お名前" required />
           </label>
           <label>
-            <span>メールアドレス</span>
+            <span>address</span>
             <input
               type="email"
               name="email"
@@ -52,7 +53,7 @@
             />
           </label>
           <label>
-            <span>メッセージ</span>
+            <span>message</span>
             <textarea
               name="message"
               placeholder="メッセージ"
@@ -66,5 +67,8 @@
     <footer class="site-footer">
       <p>© 2025</p>
     </footer>
+    
+    <!-- Back to top button -->
+    <a href="#top" class="back-to-top">↑</a>
   </body>
 </html>
